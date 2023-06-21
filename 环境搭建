@@ -1,0 +1,37 @@
+Install Homebrew (on macOS or Linux)
+
+/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
+
+
+- Run these two commands in your terminal to add Homebrew to your PATH:
+
+    (echo; echo 'eval "$(/opt/homebrew/bin/brew shellenv)"') >> /Users/neil/.zprofile
+    eval "$(/opt/homebrew/bin/brew shellenv)"
+
+Uninstall Homebrew
+
+/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/uninstall.sh)"
+
+
+brew git install
+
+git config
+
+git config  --global user.name “neil”
+git config  --global user.email “jqyaksehxk@iubridge.com”
+
+ssh-keygen -t rsa -C “jqyaksehxk@iubridge.com”
+
+end
+end
+password
+password
+
+look keygen
+
+cd /Users/neil/.ssh/
+cat id_ras.pub
+
+ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABgQCntxT6xqh3+cCcLeo4ZFAfKDsp2S/tqC3/dqbH7YzMKGh57vq1B+JH42GmV7GMp8Uq2/Tlh4KmGdu0Nonl59+nVbJY8A0x1oFYoYEm4ZHRILAR9H1TpD1G5GQ47tlzw3o7l+oX77Ux7yviFh18pNqVMZDjvfFHSCneT1Nk466en/kMLG3RCOrPzEaMkS0oPKkUKa25OgnharlJEXJFtzFCsYHHuRmZVSZxVDL4USBtQy0dtczjoxdgFlr69rMoQrETWJQPqxL7j99CBuKbXzdurU62UUmtozENmjMT8oVIRQeaA2sGbpqhKW/LBCr8mKCgHvIVHbQ5OFxltU+kZ5RXLn2gPw9tbPecKNmhMEpHGZmzZsEgBM92yrSg1GLrTyMKwkGspa70/wqwJQtbySaIzaNEipPMTIOF2wnOGWY9P3V7BStm1jZm0Bo/WkEy0uQa/G7mV62E4W9/e1ZqoGJPRmxkvy6hu3EDFz9Jh3NFQSpnw627V2RmjtfViI2UuP8= “jqyaksehxk@iubridge.com”
+
+ssh -T git@github.com
