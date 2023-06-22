@@ -33,3 +33,19 @@ cd /Users/neil/.ssh/
 cat id_ras.pub
 
 ssh -T git@github.com
+
+mysql install
+
+ls -al
+touch .bash_profile
+open .bash_profile
+ ps -ef|grep mysql
+export PATH=${PATH}:/usr/local/mysql/bin 
+source .bash_profile
+touch .zshrc
+open .zshrc
+source .zshrc
+source .bash_profile
+
+mysql -uroot -p
+
